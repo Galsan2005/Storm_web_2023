@@ -1,0 +1,22 @@
+table {
+    background-color: rgb(228, 222, 222);
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#zurag {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;    
+}
+
+td h2 {
+    font-size: 40px;
+    margin-left: 20px;
+}
+td b {
+    font-size: 20px;
+    margin-left: 20px;
+
+}

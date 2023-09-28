@@ -1,0 +1,95 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fb7d9e;
+}
+
+h3 {
+    color: navy;
+}
+
+p {
+     color: #c0fb7d;
+}
+
+strong {
+    color: rgb(132, 0, 255);
+}
+ 
+div {
+    height: 300px;
+    width: 400px;
+    background-color: blue;
+}
+
+div div{
+    height: 50px;
+    width: 150px;
+    background-color: rgba(255, 192, 203, 0.2);
+}
+#lesson05 {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+}
+
+#lesson06 h1 {
+    background-color: rgb(24, 255, 24);
+}
+
+#lesson06 h2 {
+    background-color: rgb(22, 43, 233);
+}
+#lesson06 h3 {
+    background-color: rgb(0, 0, 0);
+}
+
+
+div p {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(7, 7, 113);
+    color: white;
+}
+
+#lesson08 {
+    background-color: yellow;
+    width: 200px;
+    height: 400px;
+}
+
+
+#lesson10 {
+    width: 500px;
+    height: 400px;
+    background-color: antiquewhite;
+}
+
+#nomer0 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(195, 144, 64);
+    border-radius: 50px;
+}
+
+#lesson10 #nomer1 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+#lesson10 #nomer2 {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(99, 57, 17);
+}
+
+#lesson10 #nomer2 p {
+  color: #fb7d9e;
+}
+
+.paragraph {
+    width: 450px;
+    background-color: rgb(88, 69, 45);
+    text-align: center;
+    margin: 0 auto;
+}
