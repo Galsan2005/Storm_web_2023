@@ -1,0 +1,74 @@
+#dasgal1 {
+    font-weight: bold;
+}
+
+#dasgal2 {
+    font-style: italic;
+}
+
+#dasgal3 {
+    text-transform: capitalize;
+}
+
+.nomer1 {
+    text-decoration: line-through;
+}
+
+.nomer2 {
+    text-decoration: underline;
+}
+
+a:link {
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:visited {
+    color: yellow;
+    
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: solid;
+}
+
+#dasgal6 {
+    text-transform: capitalize;
+}
+   
+#bold {
+    font-weight: bold;
+}
+ #italic {
+    font-style: italic;
+}
+#dasgal8:hover {
+    background-color: aqua;
+    font-size: large;
+    border-style: dashed;
+}
+#dasgal9:focus {
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    background-color: orange;
+    width: 100px;
+    height: 70px;
+
+}
+
+#dasgal10 {
+    color: rgb(205, 153, 153);
+    background-color: red;
+    border-radius: 50%;
+    border: 1px dashed black ;
+}
+
+#dasgal10:active {
+    color: white;
+    background-color: orange;
+    border-radius: 50%;
+    border:  1px solid blue;
+    
+   
+}
