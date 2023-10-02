@@ -1,0 +1,148 @@
+#dasgal1 {
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+}
+
+#das11 {
+    background-color: aqua;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+}
+
+#dasgal2 {
+    border: 2px solid black;
+    text-align: center;
+    padding: 50px;
+    width: 300px;
+}
+
+#block {
+    background-color: aqua;
+    display: block;
+    width: 200px;
+}
+
+#inline {
+    background-color: aqua;
+    display: inline;
+    width: 200px;
+}
+
+#das4 {
+    background-color: aqua;
+    display: inline;
+    width: 50px;
+}
+
+#das41 {
+    background-color: aqua;
+    display: inline;
+    width: 50px;
+}
+
+#das5 {
+    background-color: deeppink;
+    display: inline-block;
+    width: 300px;
+}
+
+#das51 {
+    background-color: deeppink;
+    display: inline;
+    width: 200px;
+}
+ 
+#dasgal6 {
+    background-color: pink;
+    width: 250px;
+    height: 200px;
+    box-shadow: 0 0 10px grey;
+}
+
+#das7 {
+    background-color: blue;
+    box-shadow: 5px 5px 5px grey;
+    width: 280px;
+    height: 180px;
+    border-radius: 30px;
+}
+
+#das71 {
+    background-color: red;
+    box-shadow: 5px 5px 20px 2px white;
+    border-radius: 30px;
+    margin: 30px 40px 40px 30px ;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+
+#das72 {
+    text-shadow: 5px 5px 5px grey;
+    color: yellow;
+    text-align: center;
+    padding: 40px;
+}
+
+#dasgal9 {
+    background-color: gray;
+    width: 400px;
+    height: 300px;  
+    display: inline-flexbox;  
+}
+
+#line {
+    display: inline-block;
+    border-left: 5px solid black;
+    border-bottom-width: 0px;
+    height: 130px;
+    margin-top: 30px;
+    margin-left: 190px;
+}
+
+#suuri {
+    display: inline-block;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px 50px 0 0;
+    margin: -5px 0px 0px 178px;
+}
+
+#lamp {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    border: 2px solid rgb(164, 225, 245);
+    box-shadow: 0 0 30px yellow;
+    margin: -5px 0 0 161px;
+}
+
+#dasgal10 {
+    background-color: black;
+    width: 350px;
+    height: 350px;
+}
+
+#dasgal11 {
+    background-color: rgb(248, 244, 244);
+    border-radius: 200px;
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 40px rgb(255, 255, 255);
+    margin: 70px 70px 70px 70px;
+    display: inline-block;
+}
+
+#das {
+    background-color: rgb(1, 1, 1);
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    box-shadow: inset 0px 0px 15px 7px rgb(114, 68, 5) ;
+}
