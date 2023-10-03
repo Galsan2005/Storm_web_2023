@@ -1,0 +1,138 @@
+table {
+    width: 700px;
+    border-spacing: 0;
+}
+
+th,td {
+    padding: 7px 10px 7px 10px;
+}
+
+#dasgal2 {
+    margin: 0 auto;
+    background-color: #fbffdc;
+}
+
+#dasgal2 th {
+    padding: 7px 10px 7px 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+#dasgal2 td {
+    padding: 7px 10px 7px 10px;
+}
+
+#dasgal3 {
+    margin: 0 auto;
+
+}
+
+#dasgal3 th {
+    padding: 5px;
+    border-bottom: 2px solid #AAC8A7;
+    border-top: 1px solid #C3EDC0;
+}
+
+#dasgal3 td {
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid #C3EDC0;
+}
+
+.name {
+    text-align: left;
+}
+
+#dasgal4 {
+    margin: 0 auto;
+}
+
+#dasgal4 th {
+    padding: 7px 10px 7px 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border-bottom: 2px solid #F7C8E0;
+    border-top: 1px solid #FFDEB4;
+}
+
+#dasgal4 td {
+    padding: 7px 10px 7px 10px;
+}
+
+.odd {
+    background-color: #FAF3F0;
+}
+
+.even {
+    background-color: #F8E8EE;
+}
+
+#dasgal5 {
+    border-bottom: 1px solid rgb(18, 135, 108);
+    box-shadow: 0px 0px 30px 10px rgb(185, 185, 185);
+}
+
+#neg {
+    color: white;
+    background-color:rgb(18, 135, 108);
+    text-align: left;
+}
+
+#gurav {
+    color: rgb(18, 135, 108);
+    background-color: rgb(235, 235, 235);
+}
+
+#dasgal6 {
+    width: 200px;
+    height: 200px;
+    border-spacing: 5px;
+    background-color: darkcyan;
+    empty-cells: hide;
+}
+
+.das6 {
+    border: 1px solid lightgreen;
+    text-align: center;
+}
+
+#dasgal7 {
+    width: 200px;
+    height: 200px;
+    border-spacing: 5px;
+    background-color: rgb(0, 20, 243);
+}
+
+.das7 {
+    border: 1px solid rgb(251, 255, 0);
+    text-align: center;
+    color: white;
+}
+.das7:hover {
+    background-color: rgb(23, 139, 75);
+}
+
+#dasgal8 {
+    border: 5px solid black;
+}
+
+.das8 {
+    border: 5px solid rgb(255, 255, 255);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #000000;
+}
+
+#dasgal9 {
+    border-collapse: collapse;
+}
+
+.das9 {
+    border: 5px solid rgb(255, 255, 255);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #000000;
+}
+
