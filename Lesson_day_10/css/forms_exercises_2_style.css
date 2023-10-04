@@ -1,0 +1,292 @@
+* {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #a1a1a1;
+}
+
+.step-one {
+    width: 350px;
+    margin: 10px auto;
+    background-color: rgb(255, 255, 255);
+    color: #474744;
+    border: 2px solid#b2a4ff;
+    border-radius: 8px;
+}
+
+#uppercase {
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: white;
+}
+
+.das3 {
+    width: 220px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid gray;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    margin: 10px 0;
+    background-color: #B2A4FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+#das3 {
+    background-color: white;
+}
+#dasgal3 {
+    background-color: white;
+}
+
+#text {
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 220px;
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
+}
+
+#huree {
+    background-color: #FAF3F0;
+    color: #352F44;
+    border-radius: 10px;
+    margin: 10px auto;
+    border: none;
+    width: 550px;
+    padding-left: 50px;
+}
+
+#garchig {
+    background-color:  #FAF3F0;
+    text-align: left;
+}
+
+.box {
+    display: flex;
+    gap: 130px;
+    background-color: #FAF3F0;
+}
+
+.box div {
+    width: 150px;
+    margin-bottom: 20px;
+    background-color: #FAF3F0;
+    text-align: left;
+}
+
+.das7 {
+    background-color:#FAF3F0;
+}
+
+ .das71 {
+    background-color: white;
+    color: #242420;
+    text-align: left;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.gender {
+    background-color:#FAF3F0;
+    text-align: left;
+}
+
+.gender-options {
+    background-color: #FAF3F0;
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+#das7 {
+    background-color: #FAF3F0;
+}
+
+.tom {
+    background-color: #FAF3F0;
+}
+
+.jijig {
+    background-color: #FAF3F0;
+}
+
+.nomer1 {
+    background-color: #352F44;
+    color: white;
+    width: 520px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+#nomer2 {
+    background-color: #FAF3F0;
+    text-align: left;
+}
+
+#dasgal8 {
+    width: 500px;
+    height: 300px;
+    border: 15px solid black;
+    margin: 10px auto;
+    background-color: rgb(0, 0, 0);
+}
+
+#dasgal81 {
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    gap: 0;
+}
+
+#zur1 {
+    background-color: rgb(0, 0, 0);
+}
+
+#zur2 {
+    background-color: white;
+    border-radius: 10px;
+}
+
+#zurag {
+    width: 200px ;
+    height: 300px ;
+    border-radius: 10px 0 0 10px;
+}
+
+div h2 {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+div p {
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.das8 {
+    background-color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.das81 {
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid rgb(76, 76, 76);
+    background-color: white;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.das80 {
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 95px;
+}
+
+.das82 {
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 35px;
+
+}
+
+
+#dasgal9 {
+    border: 10px solid blue;
+    width: 720px;
+    height: 500px;
+    background-color: white;
+    margin: 10px auto;
+}
+
+#dasgal91 {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+#registr1 {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+#registr2 {
+    padding-left: 20px;
+    text-align: left;
+    background-color: white;
+    color: gray;
+}
+
+.das9 {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+}
+
+.das91 {
+    background-color: white;
+    text-align: left;
+    padding-left: 20px;
+    width: 190px;
+    
+}
+
+.das93 {
+    background-color: white;
+}
+
+.das94 {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 190px;
+    height: 20px;
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#next0 {
+    background-color: white;
+    text-align: left;
+    margin: 10px 0 10px 20px;
+
+}
+
+#next {
+    width: 190px;
+    height: 30px;
+    background-color: blue ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#sum {
+    background-color: blue;
+}
