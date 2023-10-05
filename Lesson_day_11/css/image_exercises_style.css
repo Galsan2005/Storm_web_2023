@@ -1,0 +1,111 @@
+#dasgal1 {
+    width: 300px;
+    height: 300px;  
+}
+
+#dasgal1:hover {
+    border: 5px solid red;
+}
+
+#dasgal2 {
+    width: 300px;
+    height: 300px;  
+}
+
+#dasgal2:hover {
+    filter:grayscale() ;
+}
+
+#dasgal3 {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+#dasgal4 {
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 10px 10px grey;
+}
+
+#dasgal5 {
+    width: 100%;
+    height: 100%;   
+}
+
+#dasgal6 {
+    border: 3px dashed black;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+}
+
+#dasgal7 {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://picsum.photos/600/400);
+}
+
+
+#dasgal8 {
+    width: 300px;
+    height: 300px;
+    filter: grayscale();
+}
+
+#dasgal8:hover {
+    width: 300px;
+    height: 300px;
+    filter: contrast();
+}
+
+#dasgal9 {
+    /* width: 300px;
+    height: 300px; */
+    object-fit: cover;
+}
+
+#dasgal10 {
+    width: 300px;
+    height: 300px;
+    filter: sepia();
+}
+
+#dasgal11 {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://picsum.photos/600/400);
+}
+
+#dasgal12 {
+    height: 400px;
+    background-image: url(https://picsum.photos/600/400);
+    background-repeat: repeat-x;
+}
+
+#dasgal13 {
+    width: 600px;
+    height: 300px;
+    background-image:url(https://picsum.photos/600/400);
+    
+}
+
+#das131 {
+    
+    background-image: linear-gradient( transparent, rgb(166, 39, 39));
+    width: 600px;
+    height: 300px;
+}
+
+div h2 {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+div p {
+    color: white;
+    text-align: center;
+}
+
+
