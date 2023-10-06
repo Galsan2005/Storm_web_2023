@@ -30,25 +30,44 @@ div button {
 
 .das4 {
     width: 400px;
-    height: 200px;
+    height: 300px;
     background-color: white;
 }
 
-.das1of4 {
+.das41 {
     width: 400px;
     height: 30px;
-    background-color: black;
     color: white;
+    background-color: black;
     text-align: center;
     padding-top: 10px;
+
+}
+
+.das42 {
+    width: 400px;
+    height: 130px;
+    background-color: beige;
+    overflow-y: scroll;
+}
+
+.das5 {
+    width: 700px;
+    height: 700px;
+    z-index: 50;
+    position: absolute;
+}
+
+#das5 {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
     position: fixed;
 }
 
-.das2of4 {
+#das51 {
     width: 400px;
-    height: 90px;
-    background-color: antiquewhite;
-    text-align: center;
-    padding-top: 100px;
-    overflow-y: scroll;
+    height: 400px;
+    background-color: red;
+    z-index: 50;
 }
