@@ -1,52 +1,97 @@
-#zurag {
-    width: 170px;
-    height: 170px;
+* {
+    background-color: rgb(225, 225, 225);
+}
+
+#tom {
+    position: relative;
+}
+
+#image {
+    width: 180px;
+    height: 180px;
     border-radius: 100px;
-    text-align: right;
-    margin-top: 90px;
+    margin-left: 100px;
+    margin-top: 30px;
 }
 
-#elonmusk {
-    font-size: 35px;
-    padding-left: 20px;
-    margin-bottom: 10px;
-    margin-top: 100px;
+#borderleft1 {
+    border-left: 1px solid black;
+    height: 80px;
+    position: absolute;
+    left: 320px;
+    top: 20px;
 }
 
-
-#nomer {
-    padding-left: 20px;
+#borderleft2 {
+    border-left: 1px solid black;
+    height: 15px;
+    position: absolute;
+    left: 320px;
+    top: 200px;
 }
 
-#line {
-    border-right: 1px solid black;
-    height: 70px;
-    left: 50%;
-    margin-left: 20px;
-    margin-top: 0px;
-    line-height: 200px;
-    
-}
-
-#dugui {
-    border-radius: 20px;
-    background-color: rgb(0, 0, 0);
-    height: 10px;
-    width: 10px;
-    color: aliceblue;
+.dugui1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 300px;
     text-align: center;
+    top: 107px;
+    left: 310px;
+}
+
+.dugui2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    top: 140px;
+    left: 310px;
+}
+
+.dugui3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    top: 174px;
+    left: 310px;
+}
+
+#elon {
+    position: absolute;
+    top: 10px;
+    left: 350px;
+}
+
+#elon h1 {
+    margin-bottom: 5px;
+}
+
+#jijig2 {
+    position: relative;
+}
+
+#from {
+    text-align: left;
     
 }
 
-h2 {
-    width: 100%; 
-    text-align: center; 
-    border-bottom: 1px solid #000; 
-    line-height: 0.7em;
-    margin: 10px 0 20px; 
- } 
- 
- h2 span { 
-     background:#fff; 
-     padding:0 10px; 
- }
+#borderleft3 {
+    border-left: 1px solid black;
+    height: 80px;
+    position: absolute;
+    left: 320px;
+    top: 20px;
+}

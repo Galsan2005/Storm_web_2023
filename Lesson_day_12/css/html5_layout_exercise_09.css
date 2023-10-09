@@ -1,0 +1,71 @@
+#page {
+    width: 700px;
+    height: 400px;
+    background-color: rgb(205, 179, 196);
+    display: inline-block;
+}
+
+header {
+    background-color: rgb(205, 253, 253);
+    width: 670px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.list {
+    padding-left: 15px;
+    padding-top: 15px;
+    list-style-type: none;
+}
+
+#content {
+    background-color: rgb(255, 124, 194);
+    width: 400px;
+    height: 180px;
+    margin: 10px ;
+    display: inline-block;
+    float: left;
+}
+
+section {
+    background-color: blueviolet;
+    width: 400px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+article {
+    width: 400px;
+    height: 80px;
+    background-color: aqua;
+}
+
+article p {
+    padding-top: 10px;
+}
+
+aside {
+    color: white;
+    background-color: blue;
+    width: 270px;
+    height: 180px;
+    float: left;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+aside span {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    width: 10px;
+    height: 10px;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    width: 680px;
+    margin-top: 230px;
+    margin-left: 10px;
+    height: 20px;
+}
