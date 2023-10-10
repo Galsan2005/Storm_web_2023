@@ -1,0 +1,45 @@
+#page {
+    margin: auto;
+    width: 800px;
+    height: 1000px;
+    background-color: rgb(245, 245, 245);
+}
+
+#header {
+    width: 800px;
+    height: 100px;
+    background-color: rgb(42, 67, 84);
+    color: white;
+    text-align: center;
+}
+
+#header p {
+    color: rgb(140, 156, 173);
+}
+
+#flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blog {
+    margin-left: 30px;
+}
+
+#content {
+    width: 770px;
+    margin: auto;
+}
+
+#pinned {
+    width: 800px;
+    height: 200px;
+    margin-top: 80px;
+}
+
+#pinned #hr {
+    color: grey;
+    margin-bottom: 5px;
+    font-size: 10px;
+}
