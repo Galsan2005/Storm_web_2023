@@ -1,0 +1,73 @@
+#page {
+    width: 770px;
+    height: 1000px;
+    background-color: rgb(228, 228, 228);
+    margin: auto;
+    
+}
+
+#header {
+    background-color: rgb(58, 56, 56);
+    width: 770px;
+    height: 50px;
+    color: white;
+}
+
+#header p {
+   text-align: center;
+   padding-top: 10px;
+   font-size: 20px;
+}
+
+#image {
+    width: 800px;
+    height: 520px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.flex {
+    margin-left: 20px;
+}
+
+.zurag {
+    width: 170px;
+    height: 250px;
+    box-shadow: 0 0 5px 1px black;
+}
+
+#footer {
+    width: 770px;
+    height: 200px;
+    background-color: rgb(58, 56, 56);
+    color: white;
+    margin-top: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+#footerjijig {
+    margin-top: 40px;
+
+}
+
+#medee {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.medee {
+    margin-left: 60px;
+    font-size: 12px;
+}
+
+#footer p {
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
