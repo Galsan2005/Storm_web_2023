@@ -54,20 +54,138 @@ div button {
 .das5 {
     width: 700px;
     height: 700px;
-    z-index: 50;
-    position: absolute;
+    position: relative;
 }
 
 #das5 {
     width: 400px;
     height: 400px;
     background-color: blue;
-    position: fixed;
+    z-index: 0;
+    position:absolute;
 }
 
 #das51 {
     width: 400px;
     height: 400px;
     background-color: red;
-    z-index: 50;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+}
+
+#das6 {
+    width: 350px;
+    height: 140px;
+    background-color: rgb(174, 174, 174);
+    display: inline-block;
+}
+
+.das6 {
+    width: 320px;
+    height: 30px;
+    background-color: white;
+    margin: 20px auto 0 auto;
+}
+
+.das61 {
+    width: 120px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+#das7 {
+    width: 350px;
+    height: 140px;
+    position: relative;
+}
+
+.das7 {
+    width: 320px;
+    height: 30px;
+    background-color: rgb(48, 135, 227);
+    color: white;
+    margin: 5px auto 0 auto;
+}
+
+.das71 {
+    width: 120px;
+    height: 20px;
+    background-color: rgb(220, 45, 45);
+    color: white;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+.das72 {
+    width: 110px;
+    height: 25px;
+    background-color: green;
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+
+#das8 {
+    color: black;
+    @media screen and (max-width: 700px) {
+        color: aqua;
+        font-size: 40px;
+    }
+}
+
+#das9 {
+    width: 500px;
+    height: 180px;
+    background-color: blue;
+    display: inline-block;
+}
+
+#das91 {
+    width: 350px;
+    height: 150px;
+    background-color: grey;
+    margin: auto;
+}
+
+#das91 p {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.das10 {
+    width: 500px;
+    height: 120px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+}
+
+.das101 {
+    width: 500px;
+    height: 150px;
+    background-color: rgb(255, 247, 0);
+    margin-top: -20px;
+}
+
+.das102 {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    margin-top: -20px;
+}
+
+.bairlal {
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.das101 p {
+    padding-left: 20px;
 }

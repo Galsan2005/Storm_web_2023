@@ -1,9 +1,8 @@
-* {
-    background-color: rgb(225, 225, 225);
-}
-
-#tom {
-    position: relative;
+#page{
+    background-color: rgb(241, 241, 241);
+    width: 850px;
+    margin: auto;
+     position: relative;
 }
 
 #image {
@@ -81,17 +80,92 @@
 
 #jijig2 {
     position: relative;
+    display: flex;
+    flex-direction: row;
 }
 
-#from {
-    text-align: left;
-    
+.from {
+    text-align: right;
+    width: 290px;
 }
 
 #borderleft3 {
     border-left: 1px solid black;
-    height: 80px;
+    height: 130px;
     position: absolute;
     left: 320px;
     top: 20px;
+}
+
+.introduce {
+    width: 500px;
+    margin-left: 60px;
+}
+
+.nomer1 {
+    width: 290px; 
+    text-align: right; 
+}
+
+.project {
+    width: 500px;
+    margin-left: 60px;
+}
+
+#jijig3 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#borderleft4 {
+    border-left: 1px solid black;
+    height: 890px;
+    position: absolute;
+    top: 20px;
+    left: 320px;
+}
+
+.dugui4 {
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: black;
+    position: absolute;
+    top: 64px;
+    left: 316px;
+}
+
+.nomer1 li {
+    margin-top: 25px;
+    list-style-type: none;
+}
+
+#jijig4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.dugui5 {
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: black;
+    position: absolute;
+    top: 350px;
+    left: 316px;
+}
+
+.dugui6 {
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: black;
+    position: absolute;
+    top: 640px;
+    left: 316px;
+}
+
+a {
+    text-decoration-line: none;
 }
