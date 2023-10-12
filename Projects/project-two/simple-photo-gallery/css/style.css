@@ -1,22 +1,22 @@
 #page {
-    width: 770px;
+    max-width: 770px;
     height: 1000px;
     background-color: rgb(228, 228, 228);
-    margin: auto;
-    
+    margin: 0 auto;
+
 }
 
-#header {
+header {
     background-color: rgb(58, 56, 56);
     width: 770px;
     height: 50px;
     color: white;
 }
 
-#header p {
-   text-align: center;
-   padding-top: 10px;
-   font-size: 20px;
+header p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
 }
 
 #image {
@@ -38,7 +38,7 @@
     box-shadow: 0 0 5px 1px black;
 }
 
-#footer {
+footer {
     width: 770px;
     height: 200px;
     background-color: rgb(58, 56, 56);
@@ -53,7 +53,7 @@
 
 }
 
-#medee {
+nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -65,9 +65,7 @@
     font-size: 12px;
 }
 
-#footer p {
+footer p {
     font-size: 12px;
     margin-top: 30px;
 }
-
-
