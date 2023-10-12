@@ -1,14 +1,78 @@
-* {
+#page {
+    max-width: 1790px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #603601;
     display: flex;
-    width: 1790px;
-    height: 5811.19px;
-    background: #F7F7F7;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    color: white;
+    font-size: 25px;
+    margin-left: 89.49px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo p {
+    margin-left: 10px;
+}
+
+.header-menu {
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 19.51px; */
+}
+
+.header-menu-item {
+    display: flex;
+    margin-right: 19.51px;
+}
+
+.header-menu-item img {
+    margin-left: 5px;
+}
+
+.header-icon {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 89.52px;
+}
+
+.header-icon-img {
+    width: 20px;
+    height: 20px;
 }
 
 header {
-    width: 1790px;
-    height: 70px;
-    padding: 0px 89.52px 0px 89.49px;
-    background: #603601;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+    background: url("../imgs/background-coffee.jpeg");
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    color: white;
+    display: inline-block;
+}
+
+.banner-main {
+    text-align: center;
+}
+
+.banner-main h1 {
+    font-size: 45px;
+    margin-top: 60px;
+}
+
+.banner-main p {
+    font-size: 20px;
 }
