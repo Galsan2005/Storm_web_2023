@@ -128,7 +128,7 @@
 }
 
 .background {
-    background-image: url(../zurag/zur1.jpeg);
+    background-image: url(../imgs/zur1.jpeg);
     background-size: cover;
     width: 400px;
     height: 300px;
@@ -136,7 +136,7 @@
 }
 
 .background1 {
-    background-image: url(../zurag/zur2.jpeg);
+    background-image: url(../imgs/zur2.jpeg);
     background-size: cover;
     width: 400px;
     height: 300px;
