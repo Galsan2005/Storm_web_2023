@@ -4,7 +4,7 @@
 }
 
 .header {
-    width: 100%;
+    width: 1790px;
     height: 70px;
     background-color: #603601;
     display: flex;
@@ -57,7 +57,7 @@
 header {
     background: url("../imgs/background-coffee.jpeg");
     background-position: center;
-    width: 100%;
+    width: 1790px;
     height: 500px;
     background-size: cover;
     color: white;
@@ -70,9 +70,197 @@ header {
 
 .banner-main h1 {
     font-size: 45px;
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 .banner-main p {
     font-size: 20px;
+}
+
+#header-center {
+    display: flex;
+    justify-content: center;
+}
+
+.header-text1 {
+    width: 100px;
+    height: 20px;
+    background: #C69B7B;
+    padding: 11.99px 30px 13.49px 30px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.header-text2 {
+    width: 130px;
+    height: 20px;
+    background: #603601;
+    padding: 11.99px 30px 13.49px 30px;
+    font-size: 18px;
+}
+
+#about-us-fake {
+    width: 1790px;
+    padding: 30px 89.49px;
+}
+
+.title {
+    width: 1611.02px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.title p {
+    font-size: 40px;
+    color: black;
+    max-width: 1611.02px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.line {
+    width: 100px;
+    height: 1px;
+    background-color: #603601;
+    position: absolute;
+    bottom: 5px;
+}
+
+.line1 {
+    width: 28px;
+    height: 5px;
+    background-color: #603601;
+    position: absolute;
+    right: 791.5px;
+    bottom: 2.99px;
+}
+
+#about-us {
+    display: flex;
+    width: 1611.02px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0px 40px;
+    padding: 30px 89.49px;
+}
+
+.about-us-img{
+    display: flex;
+    width: 785.51px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-img {
+    width: 786px;
+    height: 450px;
+}
+
+.about-us-text {
+    height: 313.16px;
+}
+
+.p1 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.p2 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    max-width: 785.51px;
+    margin-top: 14px;
+    line-height: 27px; 
+}
+
+.p3 {
+    color: #666;
+    font-size: 16px;
+    max-width: 650px;
+    font-weight: 400;
+    margin-top: 12px;
+    line-height: 28.8px;
+}
+
+#contact-us {
+    background: #603601;
+    width: 156px;
+    height: 46px;
+}
+
+#contact-us p {
+    margin-top: 24px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px 30.56px 13.48px 30px;
+}
+
+#our-services {
+    display: flex;
+    width: 1790px;
+    padding: 30px 89.49px;
+    flex-direction: column;
+    gap: 19.99px;   
+}
+
+#box-container {
+    width: 1611.02px;
+    height: 765.94px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.boxes {
+    display: flex;
+    width: 395.25px;
+    flex-direction: column;
+    background: #FFF;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.item {
+    display: flex;
+    width: 395.25px;
+    height: 250px;
+}
+
+.zurag-hemjee {
+    width: 395px;
+    height: 250px;
+}
+
+.dood-item {
+    display: flex;
+    width: 395.25px;
+    padding: 21px 20px 20.47px 20px;
+    flex-direction: column;
+    gap: 9.5px; 
+}
+
+.boxes-text1 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+    max-width: 355.25px;
+}
+
+.boxes-text2 {
+    display: flex;
+    width: 355.25px;
+    padding-right: 0px;
+    flex-direction: column;
+}
+
+.boxes-text2 p {
+    color: #666;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 355.25px;
 }
