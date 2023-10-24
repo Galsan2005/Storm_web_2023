@@ -1,0 +1,28 @@
+#page {
+    height: 600px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: bisque;
+    border: 2px solid blueviolet;
+}
+
+#page h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .container-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    background-color: greenyellow;
+    text-align: center;
+}
