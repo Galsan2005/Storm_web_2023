@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<style>
+    	    #textbox{
+                    margin: 10px;
+                    border: 1px solid black;
+                    height: 200px;
+                }
+            #keyboard{
+                    text-align: center;
+                }
+        </style>
+	</head>
+    <body>
+        <div id = 'keyboard'>
+        </div>
+        
+        <div id = 'textbox'>
+        </div>
+    </body>
+    
+    <script>
+    
+    
+        var alpha = ['q','w','e','r','t','y','u','i','o','p','a','s',
+            'd','f','g','h','j','k','l',';','\'',
+            'z','x','c','v','b','n','m', ',','.',];
+        const input = prompt('Give me your input');
+
+        const found = alpha.find((element) => element == input);
+
+        if(found != undefined) {
+            console.log('found');
+        } else {
+            console.log('not found');
+        }
+
+
+
+        // var keyboard = document.getElementById('keyboard');
+        // var textbox = document.getElementById('textbox');
+        // for(var i = 0; i < alpha.length; i++){
+        //     var button = document.createElement('button');
+        //     button.innerHTML = alpha[i];
+        //     keyboard.appendChild(button);
+        //     button.addEventListener('click', makeText)
+        //     function makeText(){
+        //      var span = document.createElement('span');
+        //         span.innerHTML = alpha[];
+        //         textbox.appendChild(span);
+        //     }
+               
+        // }
+        
+        
+        //copy makeButton and makeText functions from previous exercise
+        //create makeKeyboard function
+        
+    </script>
+    <script src="js/keyboard.js"></script>
+</html>

@@ -1,0 +1,21 @@
+#page {
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: burlywood;
+    border: 3px solid gold;
+}
+
+#page h1 {
+    text-align: center;
+    background-color: aquamarine;
+    color: rgb(0, 132, 247);
+}
+
+#page #content {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    border: 3px solid gold;
+}
