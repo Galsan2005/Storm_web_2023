@@ -11,9 +11,6 @@ header {
     height: 486px;
 }
 
-.color{
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.50) 100%);
-}
 .header {
     display: flex;
     width: 1430px;
@@ -95,7 +92,8 @@ header {
     justify-content: center;
     align-items: center;
     align-self: stretch;
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.50) 100%);
+    height: 415px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.50) 100%);
 }
 
 .content-box {
@@ -187,4 +185,165 @@ header {
     width: 1287px;
     height: 58.75px;
     background-color: rgba(229, 235, 243, 0.80);
+}
+
+.section-button{
+    display: inline-flex;
+    background: none;
+    padding: 16px 17px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 22.92px;
+    border: 2px solid #E5EBF3;
+    position: absolute;
+    top: 260px;
+    left: 81px;
+}
+
+.section-button-2 {
+    display: inline-flex;
+    background: none;
+    padding: 16px 17px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 22.92px;
+    border: 2px solid #E5EBF3;
+    position: absolute;
+    top: 260px;
+    right: 81px; 
+}
+
+.section-about-us {
+    display: inline-flex;
+    padding: 30px 71.5px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.about-us-title {
+    display: flex;
+    padding: 1px 562.9px 5px 563.1px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+
+.about-us-text {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.about-us-text2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #013560;
+    position: absolute;
+    left: 627px;
+    bottom: -5px;
+}
+
+.about-us-text3 {
+    width: 100px;
+    height: 1px;
+    background: #013560;
+}
+
+.section-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0px 40px;
+    flex-wrap: wrap;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.about-us-img {
+    background-image: url(../img/biz-1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 608.5px;
+    height: 500px;
+}
+
+.box-about {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-about {
+    width: 608.5px;
+    height: 409.98px;
+}
+
+.text-box-1 {
+    display: inline-flex;
+    padding: 1px 135.5px 1px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.text-about-us {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.text-box-2{
+    display: inline-flex;
+    padding: 0px 53.5px 10px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 14px;
+}
+
+.text-about-us-2 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.text-box-3{
+    display: inline-flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 609px;
+    height: 144px;
+}
+
+.text-about-us-3{
+    color: #666;
+    font-size: 17.3px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+.text-box-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #013560;
+    height: 46px;
+    width: 188px;
+    margin-top: 20px;
+}
+
+.text-about-us-4{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
 }

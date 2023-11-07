@@ -11,3 +11,4 @@
  welcome.innerHTML = "welcome " + myName;
  snack.innerHTML = "Your favorite snack is " + favoriteSnack;
  tvshow.innerHTML = "Your favorite tv-show is " + favoriteTv;
+ 
