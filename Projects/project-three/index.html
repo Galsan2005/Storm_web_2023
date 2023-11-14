@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <div id="full"></div>
     <div id="page">
         <!-- header heseg -->
         <header>
@@ -53,7 +54,7 @@
                 </div>
                 <!-- header link text 3 -->
                 <div class="header-link-02">
-                    <img src="img/Symbol (1).png" alt="Symbol">
+                    <img id="openBtn" onclick="openForm()" src="img/Symbol (1).png" alt="Symbol">
                 </div>
             </div>
             <div id="content">
@@ -82,18 +83,53 @@
                 </div>
             </div>
         </header>
+        <!-- div hidden -->
+        <div class="popup-form" id="myForm">
+            <form action="#" class="form-container">
+                <div class="form-header">
+                    <div class="sign-up-header">
+                        <span>Sign Up</span>
+                    </div>
+                    <div class="sign-up-header">
+                        <img class="close-btn" onclick="closeForm()" src="img/delete.last.png" alt="">
+                    </div>
+                </div>
+                <div class="form-main">
+                    <p>Register with us to get offers, support and more</p>
+
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Enter name" name="name" required>
+    
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter email" name="email" required>
+    
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter password" name="password" required>
+    
+                    <label for="password">Confirm Password</label>
+                    <input type="password" placeholder="Enter password" name="password" required>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+        <!-- div hidden -->
         <!-- main heseg -->
         <main>
             <!-- section one---element -->
             <section class="section-01">
-                <div id="section-background"></div>
-                <div class="content-div"></div>
-                <button class="section-button">
+                <div class="slider">
+                    <div class="slide" id="slide1"></div>
+                    <div class="slide" id="slide2"></div>
+                    <div class="slide" id="slide3"></div>
+                </div>
+                <button id="prevBtn" onclick="prevSlide()" class="section-button">
                     <img src="img/sum.png" alt="arrow">
                 </button>
-                <button class="section-button-2">
+                <button id="nextBtn" onclick="nextSlide()" class="section-button-2">
                     <img src="img/sum2.png" alt="arrow">
                 </button>
+                <div class="content-div"></div>
             </section>
             <!-- section about us---element -->
             <section class="section-about-us">
@@ -596,5 +632,7 @@
             </div>
         </footer>
     </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
