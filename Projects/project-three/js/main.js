@@ -47,4 +47,28 @@ function closeFormOutside(event) {
         closeForm();
     }
 }
-// draachin js
+// dropdown js
+
+document.addEventListener('DOMContentLoaded', function() {
+    let dropdown = document.querySelector('.header-nav-box-1');
+
+    dropdown.addEventListener('mouseover', function() {
+        this.querySelector('.dropdown-content').style.display = 'block';
+    });
+
+    dropdown.addEventListener('mouseout', function() {
+        this.querySelector('.dropdown-content').style.display = 'none'
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    let dropdown = document.querySelector('.header-nav-box-2');
+
+    dropdown.addEventListener('mouseover', function() {
+        this.querySelector('.dropdown-content-1').style.display = 'block';
+    });
+
+    dropdown.addEventListener('mouseout', function() {
+        this.querySelector('.dropdown-content-1').style.display = 'none'
+    });
+});
