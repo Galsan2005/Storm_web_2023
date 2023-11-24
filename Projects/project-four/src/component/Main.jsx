@@ -1,4 +1,5 @@
 import Body from "./Body";
+import Footer from "./Footer";
 import Header from "./Header";
 
 const Main = () => {
@@ -6,6 +7,7 @@ const Main = () => {
         <div className="w-[1091px] h-[1802px]">
             <Header />
             <Body />
+            <Footer />
         </div>
     );
 }
