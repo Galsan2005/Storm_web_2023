@@ -1,7 +1,7 @@
 const Header = () => {
     return (
         <div className="flex w-[1091px] px-[48px] py-[39px] justify-end items-start gap-[110px] border-b-[1px] border-solid border-[#E2E8EE] bg-[#fff]">
-            <div className="flex w-[512px] h-[39px] px-[25px] py-0 justify-between items-center shrink-0 rounded-[20px] border-[1px] border-solid border-[#D2D8D4] ">
+            <div className="flex w-[572px] h-[39px]  px-[25px] py-0 justify-between items-center shrink-0 rounded-[20px] border-[1px] border-solid border-[#D2D8D4] ">
                 <span className="flex w-[39px] h-[16px] flex-col justify-center shrink-0 text-[#898886] text-[16px] font-normal ">Хайх</span>
                 <div className="flex justify-center items-center shrink-0 w-5 h-5">
                     <img src="search-normal.svg" alt="" />

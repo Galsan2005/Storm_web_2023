@@ -1,6 +1,6 @@
 const Sidebar = () => {
     return (
-        <div className="w-[348px] inline-block  py-[40px] px[49px] flex-col items-start gap-[10px] shrink-0 border-r-[1px] border-solid border-[#E2E8EE] bg-[#fff] px-[49px] ">
+        <div className="w-[348px] inline-block  py-[40px] px[49px] flex-col items-start gap-[10px] shrink-0 bg-[#fff] px-[49px] ">
             <div className="flex flex-col items-start gap-[45px]  ">
                 <div className="w-[91.617px] h-[46px] flex">
                     <img src="Group (1).svg" alt="zurag" />
@@ -15,8 +15,8 @@ const Sidebar = () => {
                             <img src="Frame.svg" alt="icon" />
                         </div>
                         <div className="flex flex-col justify-center items-start gap-2">
-                            <div className="flex w-[250px] py-[8px] px-[16px] items-start rounded-[4px] bg-[#fff]  ">
-                                <span className="text-[14px] font-normal leading-[21px]">Hobby</span>
+                            <div className="flex w-[250px] py-[8px] px-[16px] items-start rounded-[4px] bg-[#E86B02]  ">
+                                <span className="text-[14px] font-normal text-[#fff] leading-[21px]">Hobby</span>
                             </div>
                             <div className="flex w-[250px] py-[8px] px-[16px] items-start rounded-[4px] bg-[#fff]  ">
                                 <span className="text-[14px] font-normal leading-[21px]">Travel</span>
