@@ -27,7 +27,7 @@ const ProfileBody = () => {
                     <span className="text-[#546371] text-[15px] font-medium leading-[21px] ">Профайл засах</span>
                 </div>
             </div>
-            <div className="flex w-[971px] h-10 items-start gap-[1px] border-[1px] border-[solid] border-[#DCE3EA] ">
+            <div className="flex w-[971px] h-10 items-start gap-[1px] border-b-[1px] border-b-[solid] border-b-[#DCE3EA] ">
                 <div className="flex w-[150px] h-[40px] py-[10px] pl-[45px] justify-between items-center shrink-0 border-b-2 border-b-[solid] border-b-[#E86B02] ">
                     <span className="text-[#333] text-center text-[18px] font-bold ">Бүгд</span>
                 </div>
