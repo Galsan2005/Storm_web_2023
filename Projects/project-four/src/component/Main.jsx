@@ -1,8 +1,8 @@
-import Body from "./Body";
-import Footer from "./Footer";
 import Header from "./Header";
 // import Category from "./Category"
 // import DetailMain from "./DetailMain";
+import Body from "./Body"
+import Footer from "./Footer"
 
 const Main = () => {
     return (
@@ -11,7 +11,7 @@ const Main = () => {
             <Body />
             {/* <Category /> */}
             {/* <DetailMain /> */}
-            <Footer />
+            <Footer />  
         </div>
     );
 }

@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Card from "./Card";
 
 const Category = () => {
@@ -25,6 +26,7 @@ const Category = () => {
                         </div>
                     </div>
                 </div>
+                <Outlet />
                 <section className="flex flex-col relative items-start gap-4">
                     <div className="flex pb-0 justify-end items-center">
                         <div className="flex items-start gap-[22px]">

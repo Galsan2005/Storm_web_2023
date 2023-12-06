@@ -1,28 +1,38 @@
-// import Main from "./Main";
-// import Sidebar from "./Sidebar";
+import Category from "./Category";
+import DetailMain from "./DetailMain";
+import Main from "./Main";
+import Sidebar from "./Sidebar";
+import { Routes, Route } from "react-router-dom";
+
 
 // import Posts from "./Posts";
 // import ProfileBody from "./ProfileBody";
 // import ProfileMain from "./ProfileMain";
-import ProfileMainTwo from "./ProfileMainTwo";
-import TwoFooter from "./TwoFooter";
-import TwoHeader from "./TwoHeader";
+// import ProfileMainTwo from "./ProfileMainTwo";
+// import TwoFooter from "./TwoFooter";
+// import TwoHeader from "./TwoHeader";
 
 const Layout = () => {
     return (
         <>
             <div className="flex w-[1440px]">
-                {/* <Sidebar />
-                <Main /> */}
+                <Sidebar />
+                <Main />
             </div>
             <div className="w-[1440px]">
-                <TwoHeader />
+                {/* <TwoHeader /> */}
                 {/* <ProfileMain /> */}
-                <ProfileMainTwo />
+                {/* <ProfileMainTwo /> */}
                 {/* <ProfileBody />
                 <Posts /> */}
-                <TwoFooter />
+                {/* <TwoFooter /> */}
             </div>
+            <Routes>
+                <Route path="/:category" element={<Category />} >
+                    <Route path="/:category/:id" element={<DetailMain />} />
+                </Route>
+
+            </Routes>
         </>
     );
 }
