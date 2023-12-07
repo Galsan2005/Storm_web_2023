@@ -1,7 +1,7 @@
 async function fetchData() {
     const response = await fetch('https://jsonplaceholder.typicode.com/posts');
     const datas = await response.json();
-    document.getElementById('posts').innerHTML = datas.map((data, index) => `<p onclick= handleClick(${index})>${data.title} </p>`);
+    document.getElementById('posts').innerHTML = datas.map((data, index) => `<p onclick= handleClick(${index})>${data.title} </p>`).join('');
     
 
     

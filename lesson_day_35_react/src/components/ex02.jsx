@@ -1,4 +1,4 @@
-import React, {setUsers, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function Ex02() {
     const [users, setUsers] = useState([]);

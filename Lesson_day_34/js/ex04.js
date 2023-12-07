@@ -5,7 +5,7 @@ async function fetchData(p){
     const posts = await response.json();
 
     console.log(posts);
-    document.getElementById('posts').innerHTML = posts.map(post => `<p>${post.title}</p>`);
+    document.getElementById('posts').innerHTML = posts.map(post => `<p>${post.title}</p>`).join('');
 }
 
 
