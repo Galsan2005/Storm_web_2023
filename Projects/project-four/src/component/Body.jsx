@@ -30,6 +30,8 @@ const Body = () => {
                         </div>
                     </div>
                 </section>
+
+                
                 {/* section two or technology */}
                 <section className="flex relative flex-col items-start gap-4">
                     <div className="flex w-[982px] items-start gap-[18.204px] ">
