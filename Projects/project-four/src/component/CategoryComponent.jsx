@@ -3,7 +3,7 @@ import SubCategoryComponent from "./SubCategoryComponent";
 
 export default function CategoryComponent({ title, children }) {
   const [categories, setCategories] = useState(children);
-  const [showChildren, setShowChildren] = useState(true);
+  const [showChildren, setShowChildren] = useState(false);
   
   
   return (

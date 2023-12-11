@@ -17,7 +17,7 @@ const TwoHeader = () => {
                 <div className="flex w-[396px] justify-end items-center gap-4 shrink-0  ">
                     <img className="w-[28px] h-[28px] shrink-0 " src="u_heart.svg" alt="icon" />
                     <div className="flex gap-3 w-[215px] h-[41px] shrink-0]">
-                        <div className="inline-flex px-[30px] py-10px justify-center items-center gap-[2px] h-[41px] rounded-[10px] bg-[#E86B02]">
+                        <div className="inline-flex px-[30px] py-[10px] justify-center items-center gap-[2px] h-[41px] rounded-[10px] bg-[#E86B02]">
                             <span className="text-[#FFF] text-[15px] font-medium leading-[21px]">Post</span>
                             <img src="u_pen.svg" alt="icon" />
                         </div>
