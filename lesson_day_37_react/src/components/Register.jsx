@@ -30,7 +30,7 @@ const Register = () => {
                 type="text"
                 placeholder="Email"
                 className="m-2 mt-10"
-                value={email}
+              
                 onChange={(e) => setEmail(e.target.value)}
             />
             <input 
@@ -48,7 +48,7 @@ const Register = () => {
                 onChange={(e) => setPassword(e.target.value)}
             />
             <input 
-                type="repeatPassword"
+                type="password"
                 placeholder="Repeat Password"
                 className="m-2"
                 value={repeatPassword}
