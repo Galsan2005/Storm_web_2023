@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      content: {
+        'eye': 'url("/view.png")',
+        'close': 'url("/hide.png")'
+      }
+    },
   },
   plugins: [],
 }
