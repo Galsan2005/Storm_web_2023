@@ -20,10 +20,10 @@ const SignUpHeader = () => {
                     <div className="flex gap-3 w-[215px] h-[41px] shrink-0]">
                         <button  
                             className="flex px-[30px] py-[10px] justify-center items-center gap-[10px] text-center rounded-[10px] border-[1px] border-[solid] border-[#DCE3EA] bg-[#fff]">
-                            <span className="text-[#E86B02] text-[15px] font-semibold leading-[21px]">Бүртгүүлэх</span>
+                            <a href="/signup" className="text-[#E86B02] text-[15px] font-semibold leading-[21px]">Бүртгүүлэх</a>
                         </button>
                         <button className="flex py-[10px] px-[30px] justify-between items-center rounded-[10px] border-[1px] border-b-[solid]  bg-[#E86B02] ">
-                            <span className="text-[#fff] text-[15px] font-medium leading-[21px]">Нэвтрэх</span>
+                            <a href="/login" className="text-[#fff] text-[15px] font-medium leading-[21px]">Нэвтрэх</a>
                         </button>
                     </div>
                 </div>

@@ -1,9 +1,12 @@
-const Card = ({imgSrc, title, profileImgSrc, date, likeCount}) => {
+const Card = ({ imgSrc, title, profileImgSrc, date, likeCount }) => {
     return (
         <div className="flex p-[10px] flex-col items-start gap-[10px] rounded-lg shadow-md bg-[#fff]">
             <div className="flex flex-col items-start gap-[5px] ">
-                <img className="w-[210px] h-[140px] rounded-lg" src={imgSrc} alt="zurag" />
-                <span className=" w-[148.825px] text-[#181A2A] text-base font-semibold leading-[18px] ">{title}</span>
+                <a href="/detail">
+                    <img className="w-[210px] h-[140px] rounded-lg" src={imgSrc} alt="zurag" />
+                    <span className=" w-[148.825px] text-[#181A2A] text-base font-semibold leading-[18px] ">{title}</span>
+                </a>
+
             </div>
             <div className="flex flex-col items-start gap-[8px] ">
                 <div className="flex w-[210px] justify-between items-center ">
@@ -12,7 +15,7 @@ const Card = ({imgSrc, title, profileImgSrc, date, likeCount}) => {
                         <div className="left-[25px] text-[#97989F] absolute w-[200px] text-sm leading-[13.999px] ">Tracey Wilson</div>
                     </div>
                     <span className="text-[#97989F] text-[12px] font-normal leading-[10.981px] ">
-                       {date}
+                        {date}
                     </span>
                 </div>
             </div>

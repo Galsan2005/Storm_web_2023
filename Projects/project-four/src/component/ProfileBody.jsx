@@ -1,3 +1,6 @@
+import ProfileMain from "./ProfileMain";
+
+
 const ProfileBody = () => {
     return (
         <div className="inline-flex items-start gap-[30px] mx-[56px] mt-[48px]">
@@ -32,6 +35,7 @@ const ProfileBody = () => {
                     <span className="text-[#333] text-center text-[18px] font-bold ">Бүгд</span>
                 </div>
             </div>
+            <ProfileMain />
         </div>
     );
 }

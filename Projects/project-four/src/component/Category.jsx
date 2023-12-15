@@ -30,10 +30,10 @@ const Category = () => {
                 <section className="flex flex-col relative items-start gap-4">
                     <div className="flex pb-0 justify-end items-center">
                         <div className="flex items-start gap-[22px]">
-                            <Card imgSrc={"Rectangle 39.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
-                            <Card imgSrc={"Rectangle 39.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
-                            <Card imgSrc={"Rectangle 39.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
-                            <Card imgSrc={"Rectangle 39.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
+                            <Card imgSrc={"beach.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
+                            <Card imgSrc={"beach.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
+                            <Card imgSrc={"beach.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
+                            <Card imgSrc={"beach.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
                         </div>
                     </div>
                 </section>
@@ -41,10 +41,10 @@ const Category = () => {
                 <section className="flex relative flex-col items-start gap-4">
                     <div className="flex pb-0 justify-end items-center">
                         <div className="flex items-start gap-[22px]">
-                            <Card imgSrc={"Rectangle 39.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
-                            <Card imgSrc={"Rectangle 39.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
-                            <Card imgSrc={"Rectangle 39.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
-                            <Card imgSrc={"Rectangle 39.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
+                            <Card imgSrc={"beach.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
+                            <Card imgSrc={"beach.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
+                            <Card imgSrc={"beach.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
+                            <Card imgSrc={"beach.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
                         </div>
                     </div>
                 </section>
@@ -52,10 +52,10 @@ const Category = () => {
                 <section className="flex relative flex-col items-start gap-4">
                     <div className="flex pb-0 justify-end items-center">
                         <div className="flex items-start gap-[22px]">
-                            <Card imgSrc={"Rectangle 39.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
-                            <Card imgSrc={"Rectangle 39.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
-                            <Card imgSrc={"Rectangle 39.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
-                            <Card imgSrc={"Rectangle 39.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
+                            <Card imgSrc={"beach.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
+                            <Card imgSrc={"beach.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
+                            <Card imgSrc={"beach.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
+                            <Card imgSrc={"beach.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
                         </div>
                     </div>
                 </section>
@@ -63,10 +63,10 @@ const Category = () => {
                 <section className="flex relative flex-col items-start gap-4">
                     <div className="flex pb-0 justify-end items-center">
                         <div className="flex items-start gap-[22px]">
-                            <Card imgSrc={"Rectangle 39.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
-                            <Card imgSrc={"Rectangle 39.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
-                            <Card imgSrc={"Rectangle 39.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
-                            <Card imgSrc={"Rectangle 39.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
+                            <Card imgSrc={"beach.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
+                            <Card imgSrc={"beach.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
+                            <Card imgSrc={"beach.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
+                            <Card imgSrc={"beach.png"} title={"The Impact of Technology on the Workplace"} profileImgSrc={"profile.png"} date={"Aug 20, 2022"} likeCount={23} />
                         </div>
                     </div>
                 </section>

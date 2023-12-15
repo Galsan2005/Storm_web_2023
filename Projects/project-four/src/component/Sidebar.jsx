@@ -10,14 +10,14 @@ const Sidebar = () => {
       <div className="flex flex-col items-start gap-[45px]  ">
         <div className="w-[91.617px] h-[46px] flex">
           <img src="Group (1).svg" alt="zurag" />
-          <div className="w-[70px] h-[46px] shrink-0 ">
+          <a href="/" className="w-[70px] h-[46px] shrink-0 ">
             <span className="text-[#F77268] text-[30px] font-normal">
               i
               <span className="text-[#FC9419] text-[30px] font-normal ">
                 blog
               </span>
             </span>
-          </div>
+          </a>
         </div>
         <div className="flex w-[250px]  flex-col items-start gap-8" >
           {categories.map((m, index) => (
