@@ -59,8 +59,36 @@
 #                 address[email] +=1
 # print(address)
 
+# print('===========')
+# print('exercise 04')
+# print('===========')
+
+# fname = input('Enter the file name: ')
+# try:
+#     fhand = open(fname)
+# except:
+#     print('File cannot be opened: ', fname)
+#     exit()
+    
+# address = dict()
+# x = 0
+# for line in fhand:
+#     if line.startswith("From"):
+#         words = line.split()
+#         if len(words) > 2:
+#             email = words[1]
+#             if email not in address:
+#                 address[email] = 1
+#             else:
+#                 address[email] +=1
+#                 if address[email] > x:
+#                     x = address[email]
+                    
+# print(address)
+# print(email, x)
+
 print('===========')
-print('exercise 04')
+print('exercise 05')
 print('===========')
 
 fname = input('Enter the file name: ')
@@ -71,18 +99,18 @@ except:
     exit()
     
 address = dict()
-x = 0
+
 for line in fhand:
     if line.startswith("From"):
         words = line.split()
-        if len(words) > 1:
+        if len(words) > 2:
             email = words[1]
-            if email not in address:
-                address[email] = 1
+            emails = email.split("@")
+            if emails[1] not in address:
+                address[emails[1]] = 1
             else:
-                address[email] +=1
-                if address[email] > x:
-                    x = address[email]
+                address[emails[1]] +=1
                     
 print(address)
-print(x)
+
+    
