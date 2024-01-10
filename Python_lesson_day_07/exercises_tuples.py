@@ -63,7 +63,7 @@
 
 # for v in t :
 #     print(v)
-    
+import string 
 print('===========')
 print('exercise 03')
 print('===========')
@@ -78,6 +78,9 @@ except:
 text = dict()
 word_counter = 0
 for line in fhand:
+    line = line.translate(line.maketrans('','',string.punctuation))
+    line = line.translate(line.maketrans('','',string.digits))
+    line = line.lower()
     words = line.split()
     word_counter += len(words)
     for word in words:
@@ -95,3 +98,4 @@ for key, value in text.items():
     statistics[key] = value/word_counter * 100
     
 print(statistics)
+print(word_counter)
