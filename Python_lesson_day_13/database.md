@@ -12,3 +12,4 @@
 9. select * from film_actor where actor_id = 33; (28 rows)
 10. select * from film_category where film_id = 33; (id = 7)
     select * from category where category_id = 7; (name = drama)
+    
