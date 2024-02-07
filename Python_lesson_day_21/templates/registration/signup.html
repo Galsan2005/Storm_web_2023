@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}Sign Up{% endblock title %}
+
+{% block content %}
+<div class="flex justify-between border-solid border-b-2 text-[25px]">
+    <div class="m-[40px] text-blue-600">Newspaper</div>
+    <div class="flex items-center mr-[40px]">
+        <div class="flex rounded-[5px] m-4 border-solid border-[#3582ee] border-2">
+            <a href="{% url 'login' %}" class=" text-[20px] mx-[10px] my-[5px] text-[#3582ee]">Log In</a>
+        </div>
+        <div class="flex  bg-[#3582ee] border-[#3582ee] rounded-[5px] border-solid border-2">
+            <a href="{% url 'signup' %}" class="text-[20px] mx-[10px] my-[5px] text-[#ffffff]">Sign Up</a>
+        </div>
+    </div>
+</div>
+<h1 class="m-[10px] text-[30px]">Sign Up</h1>
+<form class="" method="post">{% csrf_token %}
+    <div class="my-[10px]">Username:</div>
+    <input class="w-[1000px] rounded-[10px] border-solid border-[#c9c9c9] " {{ form.username }}>
+    <p class="text-[grey]">Required. 150 characters or fewer. Letters, digits and @/./+/-/_only.</p>
+        
+    <div class="my-[10px]">Email address:</div>
+    <input class="w-[1000px] rounded-[10px] border-solid border-[#c9c9c9]" {{ form.email }}>
+
+    <div class="my-[10px]">Age:</div>
+    <input class="w-[1000px] rounded-[10px] border-solid border-[#c9c9c9]" {{ form.age }}>
+
+    <div class="my-[10px]">Password:</div>
+    <input class="w-[1000px] rounded-[10px] border-solid border-[#c9c9c9]" {{ form.password }}>
+    <ul class="text-[grey]">
+        <li>Your password can't be tooo similar to your other personal information.</li>
+        <li>Your password must contain at least 8 characters.</li>
+        <li>Your password can't be a commonly used password.</li>
+        <li>Your password can't be entirely numeric.</li>
+    </ul>
+
+    <div class="my-[10px]">Password confirmation:</div>
+    <input class="w-[1000px] rounded-[10px] border-solid border-[#c9c9c9]" {{ form.password }}>
+    <p class="text-[grey]">Enter the same password as before, for verification</p>
+
+    <button class="flex rounded-[5px] m-4 border-solid border-[#1e8146] bg-[#1e8146] border-2" type="submit">
+        <p class="mx-[20px] my-[5px] text-[#ffffff]">Sign Up</p>
+    </button>
+</form>
+{% endblock content %}
