@@ -1,0 +1,15 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Newspaper App{% endblock title %}</title>
+    {% tailwind_css %}
+</head>
+<body>
+    <main>
+        {% block content %}
+        {% endblock content %}
+    </main> 
+</body>
+</html>
