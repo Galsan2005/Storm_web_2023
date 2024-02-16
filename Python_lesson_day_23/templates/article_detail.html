@@ -1,0 +1,13 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="">
+    <h2 class="text-[40px]">{{ object.title }} (edited)</h2>
+    <p>by {{ object.author }} | {{ article.date }}</p>
+    <p class="py-3">{{ object.body }}</p>
+</div>
+<p class="pb-3">
+    <a class="text-blue-600 underline" href="{% url 'article_edit' article.pk %}">Edit</a> |
+    <a class="text-blue-600 underline" href="{% url 'article_delete' article.pk %}">Delete</a>
+</p>
+<p>Back to <a class="text-blue-600 underline" href="{% url 'article_list' %}">All Articles</a>.</p>
+{% endblock content %}

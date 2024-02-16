@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load widget_tweaks %}
+
+{% block content %}
+<h1 class="text-[40px]">New article</h1>
+<form class="flex flex-col" action="" method="post">{% csrf_token%}
+    <label for="">Title:</label>
+    {% render_field form.title type="text" class="bg-gray m-2" %}
+    <label for="">Body:</label>
+    {% render_field form.body type="text" class="bg-gray m-2" %}
+    <label for="">Author:</label>
+    {% render_field form.author type="text" class="bg-gray m-2" %}
+    <button class="text-white rounded-[7px] w-[100px] h-[50px] bg-green-700" type="submit">Save</button>
+</form>
+{% endblock content %}

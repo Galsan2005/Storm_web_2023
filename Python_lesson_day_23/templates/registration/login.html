@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load widget_tweaks %}
+{% block title %}Log In{% endblock title %}
+{% block content %}
+{% comment %} <div class="flex justify-between border-solid border-b-2 text-[25px]">
+    <div class="m-[40px] text-blue-600">Newspaper</div>
+    <div class="flex items-center mr-[40px]">
+        <div class="flex rounded-[5px] m-4 border-solid border-[#3582ee] border-2">
+            <a href="{% url 'login' %}" class=" text-[20px] mx-[10px] my-[5px] text-[#3582ee]">Log In</a>
+        </div>
+        <div class="flex  bg-[#3582ee] border-[#3582ee] rounded-[5px] border-solid border-2">
+            <a href="{% url 'signup' %}" class="text-[20px] mx-[10px] my-[5px] text-[#ffffff]">Sign Up</a>
+        </div>
+    </div>
+</div> {% endcomment %}
+
+<h1 class="m-[10px] text-[30px]">Log In</h1>
+<form method="post">
+    {% csrf_token %}
+    <label class="my-[10px]" for="username">Username:</label>
+    {% render_field form.username class="w-[100px] rounded-[10px] border-solid" %}
+        
+    <label class="my-[10px]">Password:</label>
+    {% render_field form.password class="w-[100px] rounded-[10px] border-solid" %}
+
+    <button class="flex rounded-[5px] my-4 border-solid border-[#1e8146] bg-[#1e8146] border-2" type="submit">
+        <p class="mx-[20px] my-[5px] text-[#ffffff]">Log In</p>
+    </button> 
+</form>
+<p><a  class="underline text-blue-600" href="{% url 'password_reset' %}">Forgot your password?</a></p>
+
+{% endblock content %}

@@ -1,0 +1,77 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Newspaper App{% endblock title %}</title>
+    {% tailwind_css %}
+</head>
+<body>
+    <div class="w-[1200px] m-auto">
+        <header class="p-3 mb-3">
+            <div class="container">
+                <div class="flex justify-between border-solid border-b-2 text-[25px]">
+                    <div class="flex">
+                        <a class="m-[40px] text-blue-600" href="{% url 'home' %}">Newspaper</a>
+                    <ul class="my-[40px]">
+                        {% if user.is_authenticated %}
+                        <li>
+                            <a href="{% url 'article_new' %}" class="nav-link px-2 link-dark">+New</a>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="flex gap-[4px] items-center m-[40px]">
+                        <p>wsv</p>
+                        <img class="w-[20px] h-[20px]" src="https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png" alt="s">
+                    </div>
+                </div>
+                <div class="">
+                    <ul>
+                        
+                        <div class="dropdown text-end">
+                            <a 
+                                href="#"
+                                class="d-block link-dark text-decoration-none dropdown-toggle"
+                                id="dropdownUser1"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                {{ user.username}}
+                            </a>
+                            <ul
+                                class="dropdown-menu text-small"
+                                aria-labelledby="dropdownUser1"
+                            >
+                                <li>
+                                    <a class="dropdown-item" href="{% url 'password_change' %}">Change password</a>
+                                </li>
+                                <li>
+                                    <form action="{% url 'logout' %}" method="post">
+                                        {% csrf_token %}
+                                        <button type="submit"> Log Out </button>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </ul>
+                    {% else %}
+                    <div class="flex w-[1000px] justify-end items-center mr-[40px]">
+                        <div class="flex rounded-[5px] m-4 border-solid border-[#3582ee] border-2">
+                            <a href="{% url 'login' %}" class=" text-[20px] mx-[10px] my-[5px] text-[#3582ee]">Log In</a>
+                        </div>
+                        <div class="flex  bg-[#3582ee] border-[#3582ee] rounded-[5px] border-solid border-2">
+                            <a href="{% url 'signup' %}" class="text-[20px] mx-[10px] my-[5px] text-[#ffffff]">Sign Up</a>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </header>
+        <main>
+            {% block content %}
+            {% endblock content %}
+        </main> 
+    </div>
+  
+</body>
+</html>

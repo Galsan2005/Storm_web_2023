@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% load widget_tweaks %} {% block content %}
+<h1 class="text-[40px]">Edit</h1>
+<form class="flex flex-col" action="" method="post">
+    {% csrf_token %}
+    <label for="">Title:</label>
+    {% render_field form.title type="text" class="bg-gray m-2" %}
+    <label for="">Body:</label>
+    {% render_field form.body type="text" class="bg-gray m-2" %}
+    <!-- {{ form.as_p }} -->
+    <button class="bg-blue-400 rounded-[7px] w-[100px] h-[50px]" type="submit">Update</button>
+</form>
+{% endblock content %}
