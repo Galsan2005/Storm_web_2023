@@ -11,7 +11,7 @@
         <header class="p-3 mb-3">
             <div class="container">
                 <div class="flex justify-between border-solid border-b-2 text-[25px]">
-                    <div class="flex">
+                    <div class="flex items-center">
                         <a class="m-[40px] text-blue-600" href="{% url 'home' %}">Newspaper</a>
                     <ul class="my-[40px]">
                         {% if user.is_authenticated %}
@@ -22,13 +22,13 @@
                     </div>
                     <div class="flex gap-[4px] items-center m-[40px]">
                         <p>wsv</p>
-                        <img class="w-[20px] h-[20px]" src="https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png" alt="s">
+                        <img class="group/dropdown w-[20px] h-[20px]" src="https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png" alt="s">
                     </div>
                 </div>
                 <div class="">
                     <ul>
                         
-                        <div class="dropdown text-end">
+                        <div class="group-hover/dropdown:inline-block">
                             <a 
                                 href="#"
                                 class="d-block link-dark text-decoration-none dropdown-toggle"
