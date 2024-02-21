@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/tornado-04/Desktop/Storm_web_2023/Python_lesson_day_24/.venv"
+set -gx VIRTUAL_ENV "/Users/tornado-04/Desktop/Storm_web_2023/Postagram_project/postagram_backend_django/.venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

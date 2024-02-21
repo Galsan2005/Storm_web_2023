@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/tornado-04/Desktop/Storm_web_2023/Python_lesson_day_24/.venv"
+VIRTUAL_ENV="/Users/tornado-04/Desktop/Storm_web_2023/Postagram_project/postagram_backend_django/.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

@@ -1,6 +1,6 @@
 from rest_framework.permissions import AllowAny
 from rest_framework import viewsets
-# from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticated
 
 from core.user.serializers import UserSerializer
 from core.user.models import User
@@ -19,7 +19,7 @@ class UserViewSet(viewsets.ModelViewSet):
         self.check_object_permissions(self.request, obj)
         return obj
     
-# class UserViewSet(viewsets.ModelViewSet):
-#     http_method_names = ('patch', 'get')
-#     permission_classes = (IsAuthenticated,)
-#     serializer_class = UserSerializer
+class UserViewSet(viewsets.ModelViewSet):
+    http_method_names = ('patch', 'get')
+    permission_classes = (IsAuthenticated,)
+    serializer_class = UserSerializer

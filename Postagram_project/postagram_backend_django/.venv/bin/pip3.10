@@ -1,4 +1,4 @@
-#!/Users/tornado-04/Desktop/Storm_web_2023/Python_lesson_day_24/.venv/bin/python3
+#!/Users/tornado-04/Desktop/Storm_web_2023/Postagram_project/postagram_backend_django/.venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

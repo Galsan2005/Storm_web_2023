@@ -8,7 +8,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/Users/tornado-04/Desktop/Storm_web_2023/Python_lesson_day_24/.venv"
+setenv VIRTUAL_ENV "/Users/tornado-04/Desktop/Storm_web_2023/Postagram_project/postagram_backend_django/.venv"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
