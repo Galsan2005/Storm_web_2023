@@ -87,24 +87,24 @@ WSGI_APPLICATION = "CoreRoot.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-# DATABASES = {
-#     "default": {
-#         "ENGINE": "django.db.backends.postgresql_psycopg2",
-#         "NAME": "postagram",
-#         "USER": "postgres.vgxcqzreqtgyefilpebe",
-#         "PASSWORD": "GYEpnXf6rEYLUhKc",
-#         "HOST": "aws-0-ap-southeast-1.pooler.supabase.com",
-#         "PORT": "5432",
-#     }
-# }
-
-
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'postoagram.sqlite', 
+    "default": {
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": "postagram",
+        "USER": "postgres.vgxcqzreqtgyefilpebe",
+        "PASSWORD": "GYEpnXf6rEYLUhKc",
+        "HOST": "aws-0-ap-southeast-1.pooler.supabase.com",
+        "PORT": "5432",
     }
 }
+
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': 'postoagram.sqlite', 
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
@@ -155,4 +155,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 AUTH_USER_MODEL = "core_user.User"
 APPEND_SLASH=False
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'uploads'
 
+DEFAULT_AVATAR_URL = "https://api.dicebear.com/7.x/pixel-art/svg"

@@ -64,8 +64,8 @@ class User(AbstractModel, AbstractBaseUser, PermissionsMixin):
     is_superuser = models.BooleanField(default=False)
     # created = models.DateTimeField(auto_now=True)
     # updated = models.DateTimeField(auto_now_add=True)
-    # bio = models.TextField(null=True)
-    # avatar = models.ImageField(null=True)
+    bio = models.TextField(null=True)
+    avatar = models.ImageField(null=True)
     
     posts_liked = models.ManyToManyField(
         "core_post.Post",
@@ -111,3 +111,8 @@ class User(AbstractModel, AbstractBaseUser, PermissionsMixin):
     def has_liked_comment(self, comment):
         """Return True if the user has liked a `comment`; else False"""
         return self.comments_liked.filter(pk=comment.pk).exists()
+    
+    def user_directory_path(instance, filename):
+        return 'user_{0}/{1}'.format(instance.public_id, filename)
+    
+    avatar = models.ImageField(null=True, blank=True, upload_to=user_directory_path)

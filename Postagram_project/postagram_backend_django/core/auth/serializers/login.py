@@ -6,7 +6,10 @@ from core.user.serializers import UserSerializer
 class LoginSerializer(TokenObtainPairSerializer):
     
     def validate(self, attrs):
+        print("text")
+        
         data = super().validate(attrs)
+        print(data)
         refresh = self.get_token(self.user)
         data['user'] = UserSerializer(self.user).data
         data['refresh'] = str(refresh)
