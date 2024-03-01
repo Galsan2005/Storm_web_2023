@@ -5,7 +5,7 @@ from rest_framework.decorators import action
 from core.abstract.viewsets import AbstractViewSet
 from core.comment.models import Comment
 from core.comment.serializers import CommentSerializer
-from core.auth.permission import UserPermission
+from core.auth.permissions import UserPermission
 
 
 class CommentViewSet(AbstractViewSet):

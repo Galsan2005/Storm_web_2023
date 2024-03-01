@@ -20,8 +20,8 @@ class RegisterSerializer(UserSerializer):
 
         fields = [
             "id",
-            # "bio",
-            # "avatar",
+            "bio",
+            "avatar",
             "email",
             "username",
             "first_name",

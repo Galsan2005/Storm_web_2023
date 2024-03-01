@@ -76,8 +76,9 @@ class User(AbstractModel, AbstractBaseUser, PermissionsMixin):
         related_name="commented_by"
     )
 
-    USERNAME_FIELD = "email"
-    REQUIRED_FIELDS = ["username"]
+    USERNAME_FIELD = "username"
+    EMAIL_FIELD = "email"
+    # REQUIRED_FIELDS = ["username"]
 
     objects = UserManager()
 

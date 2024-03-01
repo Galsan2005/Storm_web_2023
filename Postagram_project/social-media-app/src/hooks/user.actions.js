@@ -13,7 +13,7 @@ function useUserActions() {
 
     function login(data) {
         return axios.post(`${baseURL}/auth/login/`, data).then((res) => {
-            setUserData(data);
+            setUserData(res.data);
             navigate("/");
         });
     }
@@ -23,7 +23,7 @@ function useUserActions() {
     }
     function register(data){
         return axios.post(`${baseURL}/auth/register/`, data).then((res) => {
-            setUserData(data);
+            setUserData(res.data);
             navigate("/");
         });
     }
@@ -45,6 +45,7 @@ function getRefreshToken() {
 }
 
 function setUserData(data) {
+    console.log(data)
     localStorage.setItem(
         "auth", 
         JSON.stringify({

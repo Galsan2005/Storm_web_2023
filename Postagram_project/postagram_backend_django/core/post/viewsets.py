@@ -6,7 +6,7 @@ from rest_framework.permissions import IsAuthenticated
 from core.abstract.viewsets import AbstractViewSet
 from core.post.models import Post
 from core.post.serializers import PostSerializer
-from core.auth.permission import UserPermission
+from core.auth.permissions import UserPermission
 
 
 class PostViewSet(AbstractViewSet):

@@ -1,17 +1,12 @@
 import React from "react";
-async function Home() {
-  // const result = await fetch("http://127.0.0.1:8000/api/post/");
-  // const data = await result.json();
+// import NavigationBar from "./NavigationBar";
 
-  // console.log(data);
+function Home() {
+
+  console.log('It is home');
   return (
     <div>
-      <h1>Profile</h1>
-      {/* {data ? <div>Loading</div> : data.forEach((d) => {
-        return (<div>
-                {d.id}
-        </div>)
-      })} */}
+      Profile
     </div>
   );
 }
