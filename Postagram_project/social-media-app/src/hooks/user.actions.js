@@ -29,6 +29,21 @@ function useUserActions() {
     }
 }
 
+function usePostActions() {
+    const navigate = useNavigate();
+    const baseURL = "http://localhost:8000/api";
+    return{
+        createPost,
+    };
+
+    function createPost(data) {
+        return axios.post(`${baseURL}/post/`, data).then((res) => {
+            setUserData(res.data);
+            navigate("/");
+        });
+    }
+}
+
 function getUser() {
     const auth = JSON.parse(localStorage.getItem("auth"));
     return auth.user;
@@ -56,4 +71,4 @@ function setUserData(data) {
     );
 }
 
-export {useUserActions, getUser, getAccessToken, getRefreshToken};
+export {useUserActions, usePostActions, getUser, getAccessToken, getRefreshToken};

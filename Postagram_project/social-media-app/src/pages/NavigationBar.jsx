@@ -1,9 +1,11 @@
 import { useState } from "react";
+import { useUserActions } from "../hooks/user.actions";
 
 const NavigationBar = () => {
   const data = JSON.parse(localStorage.getItem("auth"));
-  console.log(data);
+  // console.log(data);
   const [show, setShow] = useState(false);
+  const useActions = useUserActions() 
 
   return (
     <div className="">
@@ -33,15 +35,15 @@ const NavigationBar = () => {
               </a>
             </li>
             <li>
-              <a href="/" className="text-black no-underline">
+              <button onClick={() => useActions.logout()}>
                 Logout
-              </a>
+              </button>
             </li>
           </ul>
         </div>
-      ) : (
-        <div>NO show</div>
-      )}
+        ):(
+          <span></span>
+        )}
     </div>
   );
 };
