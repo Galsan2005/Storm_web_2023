@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { getUser } from "../hooks/user.actions";
 
-function Post() {
-  const data = JSON.parse(localStorage.getItem("auth"));
+function Post(props) {
+  console.log(props)
+  const user = getUser();
   const [showChildren, setShowChildren] = useState(true);
   const [count, setCount] = useState(0);
 
@@ -18,10 +20,10 @@ function Post() {
       <div className="flex items-end">
         <img
           className="bg-white mt-[20px] border-blue-600 rounded-[100px]  border-[2px] w-[50px] h-[50px]"
-          src={data.user.avatar}
+          src={user.avatar}
           alt=""
         />
-        <p className="ml-[10px]">{data.user.username}</p>
+        <p className="ml-[10px]">{props.post.author.username}</p>
       </div>
       <img
         className=" absolute right-[10px] top-6 w-[20px] h-[20px]"
@@ -29,7 +31,7 @@ function Post() {
         alt=""
       />
       <div className="mt-[10px]">
-        <p>hello world</p>
+        <p>{props.post.body}</p>
       </div>
       <div className="flex items-center gap-1 mt-[-10px] mb-2">
         <img className="w-[20px] h-[20px]" src="like (1).png" alt="" />

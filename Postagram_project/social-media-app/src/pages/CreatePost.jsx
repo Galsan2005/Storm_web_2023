@@ -18,7 +18,7 @@ function CreatePost() {
     };
     console.log(data);
     axiosService
-      .post("/api/post/", data)
+      .post("/post/", data)
       .then((res) => {
         console.log(res);
       })
@@ -34,14 +34,14 @@ function CreatePost() {
         src={user.avatar}
         alt=""
       />
-      <form className="w-[100%]">
+      <form className="flex justify-between w-[100%]">
         <input
-          className="ml-[20px] rounded-[20px] w-[80%] h-[35px] border-solid border-2 border-blue-600 pl-5"
+          className="ml-[5px] rounded-[20px] w-[80%] h-[35px] border-solid border-2 border-blue-600 pl-5"
           type="text"
           placeholder="Write a post"
           onChange={(event) => setPost(event.target.value)}
         />
-        <button onClick={handleSubmit}>post me</button>
+        <button className="w-[70px] mr-[10px] text-white bg-blue-600 h-[35px] rounded-[10px]" onClick={handleSubmit}>post me</button>
       </form>
     </div>
   );

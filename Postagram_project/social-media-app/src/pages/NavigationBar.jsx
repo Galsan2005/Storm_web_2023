@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { useUserActions } from "../hooks/user.actions";
+import { getUser, useUserActions } from "../hooks/user.actions";
 
 const NavigationBar = () => {
-  const data = JSON.parse(localStorage.getItem("auth"));
+  const user = getUser();
   // console.log(data);
   const [show, setShow] = useState(false);
   const useActions = useUserActions() 
@@ -14,7 +14,7 @@ const NavigationBar = () => {
         <div className="flex items-center relative mr-20">
           <img
             className="bg-white rounded-[100px] border-[2px] w-10 h-10"
-            src={data.user.avatar}
+            src={user.avatar}
             alt=""
           />
           <button onClick={() => setShow(!show)}>
@@ -30,7 +30,7 @@ const NavigationBar = () => {
         <div className="absolute top-[80px] right-5">
           <ul className="w-[130px] px-3 py-1 bg-white h-[60px] border-1">
             <li>
-              <a href="/" className="text-black no-underline">
+              <a href={`/profile/${user.id}`} className="text-black no-underline">
                 Profile
               </a>
             </li>
