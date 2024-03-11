@@ -6,6 +6,7 @@ function OtherProfile() {
   const users = useSWR(`/user/?author_public_id=8627e5187a1d42468c13d2205be84991`, fetcher, {
     refreshInterval: 20000
   })
+  console.log("========")
   console.log(users.data)
   return (
     <div className="w-[90%] h-[100%] m-[30px] border-1 shadow-xl rounded-[20px]">

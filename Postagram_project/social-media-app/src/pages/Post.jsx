@@ -2,7 +2,7 @@ import { useState } from "react";
 import { getUser } from "../hooks/user.actions";
 
 function Post(props) {
-  console.log(props)
+  console.log(props);
   const user = getUser();
   const [showChildren, setShowChildren] = useState(true);
   const [count, setCount] = useState(0);
@@ -27,27 +27,44 @@ function Post(props) {
       </div>
       <img
         className=" absolute right-[10px] top-6 w-[20px] h-[20px]"
-        src="dots.png"
+        src="/dots.png"
         alt=""
       />
       <div className="mt-[10px]">
         <p>{props.post.body}</p>
       </div>
-      <div className="flex items-center gap-1 mt-[-10px] mb-2">
-        <img className="w-[20px] h-[20px]" src="like (1).png" alt="" />
-        <span>{count} like</span>
+      <div className="flex items-center justify-between gap-1 mt-[-10px] mb-2">
+        <div className="flex gap-1 items-center">
+          <img className="w-[20px] h-[20px]" src="/like (1).png" alt="" />
+          <span>{count} like</span>
+        </div>
+        <div>
+          <span className="mr-4 underline text-blue-500">0 comments</span>
+        </div>
       </div>
       <div className="flex justify-start gap-10">
         <div className="flex gap-1">
           <button onClick={() => setShowChildren(!showChildren)}>
-            {showChildren ? ( <img className="w-[20px] h-[20px]" src="like.png" alt="icon" 
-            onClick={handleIncrement}/> ) : ( <img className="w-[20px] h-[20px]" src="thumb-up.png" alt="icon"  onClick={handledecrement}/> 
+            {showChildren ? (
+              <img
+                className="w-[20px] h-[20px]"
+                src="/like.png"
+                alt="icon"
+                onClick={handleIncrement}
+              />
+            ) : (
+              <img
+                className="w-[20px] h-[20px]"
+                src="/thumb-up.png"
+                alt="icon"
+                onClick={handledecrement}
+              />
             )}
           </button>
           <span>Like</span>
         </div>
         <div className="flex items-center gap-1">
-          <img className="w-[20px] h-[20px]" src="bubble-chat.png" alt="" /> 
+          <img className="w-[20px] h-[20px]" src="/bubble-chat.png" alt="" />
           <span>Comment</span>
         </div>
       </div>

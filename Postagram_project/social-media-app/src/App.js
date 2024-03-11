@@ -6,6 +6,7 @@ import ProtectedRoute from "./routes/ProtectedRoute";
 import Registration from "./pages/Registration";
 import Login from "./pages/Login";
 import Profile from "./pages/Profile";
+import UserEdit from "./pages/UserEdit";
 
 function App() {
   return (
@@ -18,7 +19,12 @@ function App() {
       <Route path="/counter" element={<Counter />} />
       <Route path="/register/" element={<Registration />} />
       <Route path="/login/" element={<Login />} />
-      <Route path={`/profile/?author_public_id=8627e5187a1d42468c13d2205be84991`} element={<Profile />} />
+      <Route path="/profile/:profileId" element={
+      // <ProtectedRoute >
+        <Profile />
+      // {/* </ProtectedRoute> */}
+      }/>
+      <Route path="/profile/:profileId/edit" element={<UserEdit />} />
     </Routes>
   );
 }

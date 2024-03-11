@@ -41,7 +41,7 @@ function CreatePost() {
           placeholder="Write a post"
           onChange={(event) => setPost(event.target.value)}
         />
-        <button className="w-[70px] mr-[10px] text-white bg-blue-600 h-[35px] rounded-[10px]" onClick={handleSubmit}>post me</button>
+        <button className="w-[70px] mr-[20px] text-white bg-blue-600 h-[35px] rounded-[10px]" onClick={handleSubmit}>post me</button>
       </form>
     </div>
   );

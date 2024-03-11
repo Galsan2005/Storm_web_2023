@@ -8,7 +8,6 @@ function LoginForm() {
   const [error, setError] = useState(null);
   const userActions = useUserActions();
 
-
   const handleSubmit = (event) => {
     event.preventDefault();
     const loginForm = event.currentTarget;
@@ -24,6 +23,7 @@ function LoginForm() {
     userActions.login(data).catch((err) => {
       if (err.message) {
         setError(err.request.response);
+       
       }
     });
 

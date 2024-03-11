@@ -20,6 +20,7 @@ class PostViewSet(AbstractViewSet):
 
     def get_object(self):
         obj = Post.objects.get_object_by_public_id(self.kwargs["pk"])
+        print(Post.objects)
         self.check_object_permissions(self.request, obj)
         return obj
 
