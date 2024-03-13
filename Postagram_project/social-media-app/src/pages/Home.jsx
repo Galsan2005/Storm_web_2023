@@ -11,7 +11,8 @@ function Home() {
   const posts = useSWR(`/post/?author_public_id=8627e5187a1d42468c13d2205be84991`, fetcher, {
     refreshInterval: 20000
   })
-  console.log(posts.data)
+  console.log("111111111")
+  console.log(posts?.data)
   return (
     <div>
       <NavigationBar />
