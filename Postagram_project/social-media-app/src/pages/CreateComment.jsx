@@ -13,17 +13,15 @@ function CreateComment(props) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
     setValidated(true);
     const data = {
       author: user.id,
       body: comment,
       post: props?.post?.id,
     };
-    console.log()
     console.log(comment);
     axiosService
-      .post(`/post/${props?.post?.id}/comment/`, comment)
+      .post(`/post/${props?.post?.id}/comment/`, data)
       .then((res) => {
         console.log(res);
       })

@@ -1,6 +1,6 @@
 function UserCard(props) {
   const { user, id } = props;
-  // console.log("user card", user.avatar, id);
+  console.log("user card", user.avatar, id);
 
   return (
     <div className="mt-[35px]">

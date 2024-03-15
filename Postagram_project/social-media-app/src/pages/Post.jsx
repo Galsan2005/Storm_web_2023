@@ -7,7 +7,7 @@ import Comment from "./Comment";
 
 function Post(props) {
   console.log(props)
-  const comments = useSWR(`/post/8c17ed71-7b19-4f98-b182-f355f4afe569/comment/`, fetcher, {
+  const comments = useSWR(`/post/${props.post.id}/comment/`, fetcher, {
     refreshInterval: 20000
 })
   console.log(props);
