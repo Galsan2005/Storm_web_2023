@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-kyj6lax2r7g+_$uii&468r6u^mag^y6f#^^0=3ylc7gmaz*!mx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["galsan.ilearn.mn", "3.27.222.80"]
 
 
 # Application definition
